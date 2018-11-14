@@ -1,2 +1,2 @@
 # KubsauMail
-KubsauMail -  graduation work
+KubsauMail not finish the project
