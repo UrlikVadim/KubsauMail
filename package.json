@@ -1,0 +1,35 @@
+{
+  "name": "kubsaumail",
+  "version": "1.0.0",
+  "description": "kubsaumail",
+  "main": "server.js",
+  "dependencies": {
+    "2gis-maps": "^3.5.0",
+    "2gis-maps-react": "0.0.4",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0-beta4",
+    "sms_ru": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/UrlikVadim/KubsauMail.git"
+  },
+  "keywords": [
+    "kubsau",
+    "mail",
+    "chat"
+  ],
+  "author": "Urlik Vadim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UrlikVadim/KubsauMail/issues"
+  },
+  "homepage": "https://github.com/UrlikVadim/KubsauMail#readme"
+}

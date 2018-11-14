@@ -1,0 +1,539 @@
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        font: 150% sans-serif;
+        font-style: normal;
+    }
+    
+    textarea {
+        width: 100%;
+        height: 100%;
+        resize: none;
+        /* Запрещаем изменять размер */
+    }
+    
+    .button {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    #root {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-image: url(../image/MainImage.jpg);
+        background-size: cover;
+    }
+    
+    .MainScreen {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        position: relative;
+    }
+    /* header */
+    
+    .MainMenu {
+        width: 100%;
+        height: 6%;
+        background-color: green;
+        position: relative;
+    }
+    
+    .mail,
+    .chat,
+    .profile,
+    .signin,
+    .search {
+        margin: auto;
+        font-size: 80%;
+        text-align: center;
+        margin-left: 4%;
+        margin-right: 4%;
+        color: white;
+    }
+    /* header */
+    /* SignIn */
+    
+    .SignIn {
+        width: 100%;
+        height: 94%;
+        overflow: hidden;
+        background-image: url(../image/SignIn.jpg);
+        background-size: cover;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    .SignInForm {
+        font-size: 80%;
+        color: white;
+        border: 2px solid gray;
+        width: 25%;
+        margin: auto;
+        background-color: green;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        text-align: center;
+    }
+    
+    .Smscode {
+        display: block;
+    }
+    
+    .Enter {
+        border: 2px solid gray;
+        background-color: white;
+        color: green;
+    }
+    
+    .SignInInput {
+        width: 90%;
+        height: 20%;
+        border: 2px solid gray;
+        font-size: 100%;
+    }
+    /* Registation */
+    
+    .Registation {
+        width: 100%;
+        height: 94%;
+        overflow: hidden;
+        background-image: url(../image/Registration.JPG);
+        background-size: cover;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    .Registation p {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    /* MyProfile */
+    
+    .MyProfile {
+        width: 100%;
+        height: 94%;
+        overflow: hidden;
+        background-color: green;
+        color: white;
+        position: relative;
+    }
+    
+    .MyProfileList {
+        width: 30%;
+        height: 100%;
+        background-color: green;
+        color: white;
+    }
+    
+    .MyProfileList p {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+    
+    .map {
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        left: 30%;
+        top: 0px;
+        background-color: white;
+    }
+    
+    .MyProfileListImg {
+        width: 100%;
+        height: 50%;
+    }
+    /* OtherProfile */
+    
+    .OtherProfile {
+        width: 100%;
+        height: 94%;
+        overflow: hidden;
+        background-color: green;
+        color: white;
+        position: relative;
+    }
+    
+    .OtherProfileList {
+        width: 30%;
+        height: 100%;
+        background-color: green;
+        color: white;
+    }
+    
+    .OtherProfile p {
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    
+    .OtherProfileButton {
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 5%;
+        border: 2px solid gray;
+        background-color: green;
+        color: white;
+    }
+    /* SearchProfile */
+    
+    .SearchProfile {
+        width: 100%;
+        height: 94%;
+        overflow: hidden;
+        background-image: url(../image/Search.jpg);
+        background-size: cover;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    .SearchProfile p {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    /* ListProfile */
+    
+    .ListProfileForm {
+        font-size: 80%;
+        color: white;
+        border: 2px solid gray;
+        width: 25%;
+        height: 90%;
+        margin: auto;
+        background-color: green;
+        overflow: auto;
+    }
+    
+    .ListProfileDiv {
+        height: 13%;
+        font-size: 100%;
+        border-bottom: 2px solid gray;
+        background-color: green;
+        color: white;
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+    
+    .ListProfileDivButton {
+        font-size: 70%;
+        width: 45%;
+        border: 2px solid gray;
+        background-color: green;
+        color: white;
+    }
+    /* MailList */
+    
+    .MailList {
+        width: 100%;
+        height: 94%;
+        overflow: hidden;
+        background-color: white;
+        position: relative;
+        background-image: url(../image/Registration.JPG);
+        background-size: cover;
+    }
+    
+    .MailListForm {
+        top: 3%;
+        margin: auto;
+        width: 50%;
+        height: 80%;
+        position: relative;
+    }
+    
+    .MailListFind {
+        float: left;
+        width: 100%;
+        height: 100%;
+        background-color: green;
+        color: white;
+        border: 2px solid gray;
+    }
+    
+    .MailListFind p {
+        padding-left: 2%;
+        padding-bottom: 4%;
+        border-bottom: 2px solid gray;
+    }
+    
+    .MailListItems {
+        position: absolute;
+        left: 40%;
+        top: 1%;
+        bottom: 1%;
+        width: 60%;
+        height: 98%;
+        background-color: white;
+        overflow: auto;
+    }
+    
+    .MailListItem {
+        font-size: 70%;
+        width: 100%;
+        height: 15%;
+        background-color: white;
+        color: Green;
+        border-bottom: 2px solid gray;
+        overflow: hidden;
+    }
+    
+    .MailListItem p {
+        margin: 0px;
+        padding-left: 1%;
+    }
+    /* MailView */
+    
+    .MailView {
+        width: 100%;
+        height: 94%;
+        padding-top: 1%;
+        overflow: hidden;
+        background-color: white;
+        background-image: url(../image/SignIn.jpg);
+        background-size: cover;
+    }
+    
+    .MailViewForm {
+        position: relative;
+        font-size: 60%;
+        color: white;
+        border: 2px solid gray;
+        width: 70%;
+        height: 80%;
+        margin: auto;
+        background-color: green;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .Attachmet {
+        position: absolute;
+        bottom: 1%;
+        left: 1%;
+        width: 10%;
+        height: 5%;
+        text-align: center;
+        border: 2px solid gray;
+    }
+    /* MailSend */
+    
+    .MailSendInput {
+        width: 90%;
+        height: 10%;
+        border: 2px solid gray;
+        font-size: 150%;
+    }
+    
+    .MailSendTextarea {
+        width: 90%;
+        height: 50%;
+        border: 2px solid gray;
+        font-size: 120%;
+    }
+    
+    .SendMail {
+        margin-top: 1%;
+        text-align: center;
+        width: 10%;
+        height: 5%;
+        border: 2px solid gray;
+        font-size: 80%;
+    }
+    /* Chat */
+    
+    .AddChatList {
+        width: 100%;
+        height: 94%;
+        padding-top: 1%;
+        overflow: hidden;
+        background-image: url(../image/SignIn.jpg);
+        background-size: cover;
+    }
+    
+    .AddChatListForm {
+        width: 20%;
+        height: 90%;
+        padding-top: 1%;
+        margin: auto;
+        overflow: auto;
+        background-color: green;
+        border: 2px solid gray;
+        font-size: 70%;
+    }
+    
+    .MyChatListItem {
+        text-align: center;
+        color: white;
+        width: 96%;
+        height: 15%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-bottom: 2px solid gray;
+    }
+    
+    .MyChatListItem p {
+        margin-top: 3%;
+        margin-bottom: 1%;
+    }
+    
+    .Chat {
+        width: 100%;
+        height: 94%;
+        padding-top: 1%;
+        overflow: hidden;
+        background-image: url(../image/Chatview.jpg);
+        background-size: cover;
+    }
+    
+    .ChatForm {
+        position: relative;
+        width: 70%;
+        height: 90%;
+        padding-top: 1%;
+        margin: auto;
+        overflow: hidden;
+        background-color: green;
+        border: 2px solid gray;
+        font-size: 70%;
+    }
+    
+    .ChatList {
+        position: absolute;
+        overflow: auto;
+        left: 0px;
+        top: 0px;
+        bottom: 20%;
+        right: 50%;
+        width: 50%;
+        height: 80%;
+        background-color: white;
+    }
+    
+    .ChatListItem {
+        text-align: center;
+        width: 100%;
+        height: 10%;
+        background-color: white;
+        border-bottom: 2px solid gray;
+        color: green;
+    }
+    
+    .ChatListItem p {
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+    
+    .ChatCreate {
+        position: absolute;
+        padding-left: 3%;
+        left: 0px;
+        top: 80%;
+        bottom: 0px;
+        right: 50%;
+        width: 50%;
+        height: 20%;
+        background-color: green;
+        border-top: 2px solid gray;
+        color: white;
+    }
+    
+    .ChatCreate p {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    
+    .ChatCreateInput {
+        width: 90%;
+        height: 20%;
+        border: 2px solid gray;
+        font-size: 100%;
+    }
+    
+    .ChatCreateButton {
+        text-align: center;
+        margin-left: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        height: 20%;
+        border: 2px solid gray;
+        font-size: 100%;
+    }
+    
+    .ChatView {
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        bottom: 20%;
+        right: 50%;
+        width: 50%;
+        height: 80%;
+        background-color: white;
+        border-left: 2px solid gray;
+    }
+    
+    .ChatViewItem {
+        font-size: 80%;
+        width: 100%;
+        height: 10%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        background-color: white;
+    }
+    
+    .ChatViewItem p {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    
+    .ChatSendMess {
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        bottom: 0px;
+        right: 50%;
+        width: 50%;
+        height: 20%;
+        background-color: green;
+        border-top: 2px solid gray;
+        border-left: 2px solid gray;
+    }
+    
+    .ChatSendMess p {
+        margin-top: 1%;
+    }
+    
+    .ChatSendMessTextarea {
+        margin-left: 4%;
+        padding-top: 1%;
+        width: 90%;
+        height: 50%;
+        border: 2px solid gray;
+        font-size: 120%;
+    }
+    
+    .ChatSendMessButton {
+        text-align: center;
+        margin-left: 4%;
+        height: 20%;
+        border: 2px solid gray;
+        color: white;
+        font-size: 100%;
+    }
