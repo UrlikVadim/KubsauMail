@@ -2,7 +2,7 @@ var WebSocketServer = new require('ws');
 const MongoClient = require('mongodb').MongoClient;
 const config = require('./config.json');
 var clients = {};
-
+const lol = 123;
 const url = "mongodb://localhost:27017/";
 mongoClient.connect(url, function(err, client) {
 
